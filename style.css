@@ -12,14 +12,26 @@ body {
 
 .nav {
     display: flex;
-    justify-content: center;           
+    justify-content: center;
+    flex-wrap: wrap;           
 }
 
 .nav li {
     display: inline;
     padding: 50px;
-    font-size: 25px;
+    font-size: 20px;  
+    
+}
+
+.nav li a {
     color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    color: rgb(105, 4, 4);
+    
 }
 
 .logo {
@@ -89,6 +101,58 @@ footer p {
  width: 100%;
  padding: 20px;
  border-radius: 100px;
+}
+
+/* MERCH */
+
+.buzos {
+    padding-top: 50px;
+}
+
+.remeras {
+    padding-top: 50px;
+}
+
+/* TOUR */
+
+.tour {
+    color: whitesmoke;
+}
+
+.tour h1 {
+    color: rgb(145, 37, 37);
+}
+
+.tour a {
+    color: rgb(145, 37, 37);
+}
+
+/* HISTORIA */
+
+.historia {
+    color: grey;
+}
+
+.historia h1 {
+    color: rgb(145, 37, 37) ;
+}
+
+.discografia p {
+    font-size: 20px;
+}
+
+.discografia span {
+    color: rgb(145, 37, 37) ;
+}
+
+.filmografia span {
+    color: rgb(145, 37, 37) ;
+}
+
+/* CONCIERTOS */
+
+.videos {
+    padding-top: 100px;
 }
 
 
