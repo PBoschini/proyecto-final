@@ -1,8 +1,10 @@
+@import '../base/variables';
+
 .historia {
     color: grey;
 
     h1 {
-        color: rgb(145, 37, 37) ;
+        color: $color-titulos ;
 
     }
 }
@@ -12,11 +14,11 @@
         font-size: 20px;
 
         span {
-            color: rgb(145, 37, 37) ;
+            color: $color-titulos ;
         }
     }
 }
 
 .filmografia span {
-    color: rgb(145, 37, 37) ;
+    color: $color-titulos ;
 }

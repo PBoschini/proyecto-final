@@ -1,10 +1,12 @@
-@import 'header-nav';
-@import 'index';
-@import 'galeria';
-@import 'merchandising';
-@import 'tour';
-@import 'historia';
-@import 'conciertos';
+@import './componentes/header-nav';
+@import './componentes/index';
+@import './componentes/galeria';
+@import './componentes/merchandising.scss';
+@import './componentes/tour';
+@import './componentes/historia';
+@import './componentes/conciertos';
+@import './base/variables';
+
 
 
 

@@ -1,3 +1,4 @@
+@import '../base/variables';
 
 .carousel-inner {
     max-height: 50rem;
@@ -14,8 +15,7 @@
 }
 
 .youtube {
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;   
@@ -32,20 +32,17 @@ footer {
     padding-bottom: 0;
 
     h1 {
-        display: flex;
-        justify-content: center;
+        @extend %flex-center;
 
         p {
-            display: flex;
-            justify-content: center;  
+            @extend %flex-center;  
         }
     }
 
 }
 
 .social-media {
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     padding: 20px;
 
     img {
