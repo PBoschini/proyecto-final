@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav li {
+  display: inline;
+  padding: 50px;
+  font-size: 20px;
+}
+.nav li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.nav li a:hover {
+  color: rgb(105, 4, 4);
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+}
+
+.carousel-inner {
+  max-height: 50rem;
+}
+.carousel-inner img {
+  max-height: 800px;
+}
+
+.imagen-inicio img {
+  width: 100%;
+  max-height: 500px;
+  padding-top: 100px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.youtube img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(105, 4, 4);
+  color: grey;
+  padding-bottom: 0;
+}
+footer h1 {
+  display: flex;
+  justify-content: center;
+}
+footer h1 p {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.social-media img {
+  padding: 20px;
+}
+
+.galeria-imagenes img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.buzos {
+  padding-top: 50px;
+}
+
+.remeras {
+  padding-top: 50px;
+}
+
+.tour {
+  color: whitesmoke;
+}
+.tour h1 {
+  color: rgb(145, 37, 37);
+}
+
+.pos-tickets {
+  color: rgb(145, 37, 37);
+}
+
+.historia {
+  color: grey;
+}
+.historia h1 {
+  color: rgb(145, 37, 37);
+}
+
+.discografia p {
+  font-size: 20px;
+}
+.discografia p span {
+  color: rgb(145, 37, 37);
+}
+
+.filmografia span {
+  color: rgb(145, 37, 37);
+}
+
+.videos {
+  padding-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

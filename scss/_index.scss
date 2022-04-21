@@ -1,0 +1,54 @@
+
+.carousel-inner {
+    max-height: 50rem;
+
+    img {
+        max-height: 800px;
+    }
+}
+
+.imagen-inicio img {
+    width: 100%;
+    max-height: 500px;
+    padding-top: 100px;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+
+    img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+footer {
+    background-color: rgb(105, 4, 4);
+    color: grey;
+    padding-bottom: 0;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+
+        p {
+            display: flex;
+            justify-content: center;  
+        }
+    }
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    img {
+        padding: 20px;
+    }
+}
