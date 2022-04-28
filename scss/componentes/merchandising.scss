@@ -1,7 +1,8 @@
 @import '../base/variables';
+@import '../base/mapa';
 
 .buzos {
-    padding-top: 50px;
+    padding: map-get($margen-merch, margenes)
 }
 
 .remeras {
