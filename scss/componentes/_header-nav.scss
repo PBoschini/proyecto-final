@@ -6,9 +6,9 @@ body {
 
 .header {
     @extend %flex-center;
-    padding: 20px;
+    @include padding-width(20px, 100%);
     padding-bottom: 50px;
-    width: 100%;    
+       
 }
 
 .nav {
