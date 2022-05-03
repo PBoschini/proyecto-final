@@ -62,11 +62,6 @@ body {
   border-radius: 20px;
 }
 
-.spotify {
-  padding: 20px;
-  padding-top: 100px;
-}
-
 footer {
   background-color: rgb(105, 4, 4);
   color: grey;
@@ -77,6 +72,11 @@ footer {
 }
 .social-media img {
   padding: 20px;
+}
+
+.spotify {
+  padding: 20px;
+  padding-top: 100px;
 }
 
 .header, .nav, .youtube, footer h1, footer h1 p, .social-media {
@@ -129,6 +129,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 .historia h1 {
   color: rgb(145, 37, 37);
   display: flex;
@@ -137,7 +138,7 @@ footer {
 
 .historia p {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   padding: 20px;
   text-align: center;
 }
@@ -160,13 +161,11 @@ footer {
   justify-content: center;
 }
 
-
 .formulario {
   width: 400px;
   padding: 30px;
   margin: auto;
   padding-bottom: 150px;
-  
 }
 
 .formulario h4 {
@@ -179,7 +178,7 @@ footer {
   font-size: 15px;
   padding: 10px;
   width: 100%;
-  border-radius:10px;
+  border-radius: 10px;
   margin-bottom: 10px;
   border: 2px solid rgb(145, 37, 37);
 }

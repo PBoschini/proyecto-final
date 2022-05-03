@@ -4,18 +4,22 @@
     color: grey;
     display: flex;
     flex-direction: column;
-
-    h1 {
-        color: $color-titulos ;
-        display: flex;
-        justify-content: center;
-
-        span {
-
-            color: rgb(145, 37, 37);
-        }
-
-    }
-}
+  }
+  .historia h1 {
+    color: rgb(145, 37, 37);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .historia p {
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .historia span {
+    color: rgb(145, 37, 37);
+  }
 
 

@@ -1,0 +1,38 @@
+.formulario {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    padding-bottom: 150px;
+    
+  }
+  
+  .formulario h4 {
+    color: rgb(145, 37, 37);
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .formulario input {
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius:10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(145, 37, 37);
+  }
+  
+  .boton {
+    background-color: rgb(145, 37, 37);
+  }
+  
+  .boton:hover {
+    background-color: darkred;
+  }
+  
+  .formulario-parrafo {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: whitesmoke;
+    margin: 20px;
+  }
