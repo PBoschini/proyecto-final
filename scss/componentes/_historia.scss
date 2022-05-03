@@ -2,9 +2,18 @@
 
 .historia {
     color: grey;
+    display: flex;
+    flex-direction: column;
 
     h1 {
         color: $color-titulos ;
+        display: flex;
+        justify-content: center;
+
+        span {
+
+            color: rgb(145, 37, 37);
+        }
 
     }
 }
