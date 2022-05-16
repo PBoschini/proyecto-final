@@ -79,6 +79,16 @@ footer {
   padding-top: 100px;
 }
 
+.btn {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.card img:hover {
+  opacity: 70%;
+}
+
 .header, .nav, .youtube, footer h1, footer h1 p, .social-media {
   display: flex;
   justify-content: center;
