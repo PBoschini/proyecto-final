@@ -1,16 +1,16 @@
 <?php
 
-    $nombre = $_post['nombre'];
-    $apellido = $_post['apellido'];
-    $email = $_post['email'];
+    $nombre = $_POST['nombre'];
+    $apellido = $_POST['apellido'];
+    $email = $_POST['email'];
 
     $para = 'pablo.boschini@gmail.com';
-    $asunto = 'Contacto de registro Eminem Fans'
+    $asunto = 'Contacto de registro Eminem Fans';
 
 
-    mail($para, $asunto, utf8_decode($nombre, $apellido, $email));
+    mail($para, $asunto, utf8_decode($email));
 
-    header('location:index.html')
+    header('location:exito.html')
 
 ?>
 

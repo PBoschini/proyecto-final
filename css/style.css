@@ -196,7 +196,7 @@ footer {
 }
 
 .boton {
-  background-color: rgb(145, 37, 37);
+  background-color: #912525;
 }
 
 .boton:hover {
@@ -209,6 +209,14 @@ footer {
   padding-top: 50px;
   color: whitesmoke;
   margin: 20px;
+}
+
+.titulo-exito {
+  color: #912525;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
