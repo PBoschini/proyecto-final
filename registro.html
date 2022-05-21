@@ -72,26 +72,18 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <form action="registro.php" method="get" data-aos="fade-up" class="formulario">
+    <form data-aos="fade-up" action="form.php" method="post" class="formulario">
       <h4>Formulario Registro</h4>
       
-      <input type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre">
-      <input type="text" name="apellido" id="apellidos" placeholder="Ingrese su apellido">
-      <input type="email" name="email" id="email" placeholder="Email">
-      <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+      <input type="text" name="nombre" id="nombres" placeholder="Nombre" required>
+      
+      <input type="text" name="apellido" id="apellidos" placeholder="Apellido" required>
+      
+      <input type="email" name="email" id="emails" placeholder="Email" required>
+      
+            
       <div>    
-      <input class="boton" type="submit" value="Registrar">
+      <input class="boton" type="submit" value="Registro">
     </div>
     </form>
  
