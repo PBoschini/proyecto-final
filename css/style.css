@@ -63,9 +63,11 @@ body {
 }
 
 footer {
-  background-color: rgb(105, 4, 4);
+  background-color: rgba(165, 33, 33, 0.479);
   color: grey;
   padding-bottom: 0;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 .social-media {
   padding: 20px;
@@ -141,7 +143,7 @@ footer {
 }
 
 .historia h1 {
-  color: rgb(145, 37, 37);
+  color: #912525;
   display: flex;
   justify-content: center;
 }
@@ -179,7 +181,7 @@ footer {
 }
 
 .formulario h4 {
-  color: rgb(145, 37, 37);
+  color: #912525;
   text-align: center;
   font-size: 30px;
 }
