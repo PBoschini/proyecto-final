@@ -196,7 +196,7 @@ footer {
 }
 
 .boton {
-  background-color: #912525;
+  background-color: rgb(145, 37, 37);
 }
 
 .boton:hover {
@@ -211,12 +211,11 @@ footer {
   margin: 20px;
 }
 
-.titulo-exito {
-  color: #912525;
+.carrito-imagen {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 60px;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
