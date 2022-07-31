@@ -42,9 +42,10 @@
         <div class="header">    
             <a href="index.html" class="">
             <img class="logo" src="imagenes/Logo.png" alt="logo">
-            <center><img class="carrito-imagen"src="imagenes/carrito.png" alt="carrito"></center>
         </div> 
     </header>
+
+    <section id="carrito"></section>
     
     <nav class="nav">
         <ul>
@@ -63,7 +64,17 @@
           </ul>
     </nav>
 
+    <section class="nav-carrito">
+      <a href="#carrito-container">Carrito</a>
+    </section>
 
+    <div class="alert alert-success hide sticky-top text-center" role="alert">
+      Producto añadido al Carrito!
+    </div>
+
+    <div class="alert alert-danger sticky-top text-center remove" role="alert">
+      Producto eliminado del Carrito!
+    </div>
 
     <section>
         <div class="container pt-5">
@@ -73,8 +84,8 @@
                     <img src="./imagenes/Gorra1.jpg" class="card-img-top" alt="gorra">
                     <div class="card-body">
                       <p class="card-text text-center">Gorra HI MY NAME IS</p>
-                      <p class="text-center">35 USD</p>
-                      <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
+                      <p class="text-center"><span class="precio">$35</span></p>
+                      <center><button class="btn-danger boton-carrito">Agregar al Carrito</button></center>
                     </div>
                   </div>
               </div>
@@ -83,7 +94,7 @@
                     <img src="./imagenes/Gorra2.jpg" class="card-img-top" alt="gorra">
                     <div class="card-body">
                       <p class="card-text text-center">Gorra SLIM SHADY</p>
-                      <p class="text-center">35 USD</p>
+                      <p class="text-center"><span class="precio">$35</span></p>
                       <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -93,7 +104,7 @@
                     <img src="./imagenes/Gorra3.jpg" class="card-img-top" alt="gorra">
                     <div class="card-body">
                       <p class="card-text text-center">Gorra KAMIKAZE</p>
-                      <p class="text-center">35 USD</p>
+                      <p class="text-center"><span class="precio">$35</span></p>
                       <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -110,7 +121,7 @@
                     <img src="./imagenes/Buzo1.jpg" class="card-img-top" alt="buzo">
                     <div class="card-body">
                         <p class="card-text text-center">Buzo SLIM SHADY</p>
-                        <p class="text-center">50 USD</p>
+                        <p class="text-center"><span class="precio">$50</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -120,7 +131,7 @@
                     <img src="./imagenes/Buzo2.jpg" class="card-img-top" alt="buzo">
                     <div class="card-body">
                         <p class="card-text text-center">Buzo HI MY NAME IS</p>
-                        <p class="text-center">50 USD</p>
+                        <p class="text-center"><span class="precio">$50</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -130,7 +141,7 @@
                     <img src="./imagenes/Buzo3.jpg" class="card-img-top" alt="buzo">
                     <div class="card-body">
                         <p class="card-text text-center">Buzo TILL I COLLAPSE</p>
-                        <p class="text-center">50 USD</p>
+                        <p class="text-center"><span class="precio">$50</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -140,7 +151,7 @@
                     <img src="./imagenes/Buzo4.jpg" class="card-img-top" alt="buzo">
                     <div class="card-body">
                         <p class="card-text text-center">Buzo THE WAY I AM</p>
-                        <p class="text-center">50 USD</p>
+                        <p class="text-center"><span class="precio">$50</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -157,7 +168,7 @@
                     <img src="./imagenes/Remera1.jpg" class="card-img-top" alt="Remera">
                     <div class="card-body">
                         <p class="card-text text-center">Remera DONT DO DRUGS</p>
-                        <p class="text-center">30 USD</p>
+                        <p class="text-center"><span class="precio">$30</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -167,7 +178,7 @@
                     <img src="./imagenes/Remera2.jpg" class="card-img-top" alt="Remera">
                     <div class="card-body">
                         <p class="card-text text-center">Remera HI MY NAME IS</p>
-                        <p class="text-center">30 USD</p>
+                        <p class="text-center"><span class="precio">$30</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -177,7 +188,7 @@
                     <img src="./imagenes/Remera3.jpg" class="card-img-top" alt="Remera">
                     <div class="card-body">
                         <p class="card-text text-center">Remera EMINEM LOGO</p>
-                        <p class="text-center">30 USD</p>
+                        <p class="text-center"><span class="precio">$30</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -187,7 +198,7 @@
                     <img src="./imagenes/Remera4.jpg" class="card-img-top" alt="Remera">
                     <div class="card-body">
                         <p class="card-text text-center">Remera EMINEM</p>
-                        <p class="text-center">50 USD</p>
+                        <p class="text-center"><span class="precio">$30</span></p>
                         <center><button class="boton-carrito btn-danger">Agregar al Carrito</button></center>
                     </div>
                   </div>
@@ -195,6 +206,22 @@
             </div>
           </div>
     </section>
+
+    <br><br>
+
+    <div class="titulo-carrito">
+      <h3>Su Carrito</h3>
+    </div>
+    
+    <section id="carrito-container" class="tbody"></section>
+
+
+    <div>
+      <h3 class="carritoTotal">Total Compra: 0 </h3>
+    </div>
+
+
+
 
 
 
