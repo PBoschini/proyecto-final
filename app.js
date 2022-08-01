@@ -4,6 +4,8 @@ const tbody = document.querySelector(".tbody")
 let carrito = []
 
 
+
+
 botonClick.forEach(btn => {
     btn.addEventListener("click", agregarAlCarrito)
 })

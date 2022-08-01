@@ -196,6 +196,15 @@ footer {
   position: sticky;
 }
 
+.compra {
+  display: flex;
+  justify-content: center;
+}
+
+.compra button {
+  font-size: 15px;
+}
+
 .header, .nav, .youtube, footer h1, footer h1 p, .social-media {
   display: flex;
   justify-content: center;
