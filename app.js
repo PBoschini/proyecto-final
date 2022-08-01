@@ -37,11 +37,6 @@ function agregarItemCarrito(nuevoItem){
     }, 1000)
     alert.classList.remove("hide")
     
-
-/*     const displayCarrito = document.querySelector(".titulo-carrito")
-    displayCarrito.classList.remove("none") */
-
-
     const inputElemento = tbody.getElementsByClassName("input")
 
     for(let i = 0; i < carrito.length ; i++){
