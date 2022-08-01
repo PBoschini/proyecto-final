@@ -28,6 +28,8 @@ function agregarAlCarrito(e){
 
 function agregarItemCarrito(nuevoItem){
     
+
+    
     const alert = document.querySelector(".alert")
 
     setTimeout( function(){
@@ -35,24 +37,34 @@ function agregarItemCarrito(nuevoItem){
     }, 1000)
     alert.classList.remove("hide")
     
-    const inputElemento = tbody.getElementsByClassName("input__elemento")
+
+/*     const displayCarrito = document.querySelector(".titulo-carrito")
+    displayCarrito.classList.remove("none") */
+
+
+    const inputElemento = tbody.getElementsByClassName("input")
 
     for(let i = 0; i < carrito.length ; i++){
-        if(carrito[i].title.trim() === nuevoItem.title.trim()){
-            carrito[i].cantidad ++;
+        if(carrito[i].title.trim() == nuevoItem.title.trim()){
+            carrito[i].cantidad ++;            
             const inputValue = inputElemento[i]
             inputValue.value++;
-            carritoTotal()           
+            carritoTotal()       
             return null;
+        }else {
+              
         }
     }
     
-    carrito.push(nuevoItem)    
+    carrito.push(nuevoItem)
+    localStorage.setItem("Carrito", JSON.stringify(carrito))
     renderCarrito()    
 }
 
 function renderCarrito(){
+
     tbody.innerHTML = ""
+    
     carrito.map(item => {
         let div = document.createElement("div")
         div.classList.add("itemCarrito")
@@ -108,6 +120,8 @@ function removeItemCarrito(e){
     for(let i=0; i<carrito.length ; i++){
         if(carrito[i].title.trim() === title.trim()){
             carrito.splice(i, 1)
+            localStorage.setItem("Carrito", JSON.stringify(carrito))
+            
         }
     }
 
@@ -115,7 +129,7 @@ function removeItemCarrito(e){
 
     setTimeout(function(){
         alert.classList.add("remove")
-    }, 1000)
+    }, 500)
         alert.classList.remove("remove")
 
     div.remove()
