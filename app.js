@@ -55,7 +55,7 @@ function agregarItemCarrito(nuevoItem){
     
     carrito.push(nuevoItem)
     localStorage.setItem("Carrito", JSON.stringify(carrito))
-    renderCarrito()    
+    renderCarrito()
 }
 
 function renderCarrito(){
@@ -94,6 +94,8 @@ function renderCarrito(){
 
     })
         carritoTotal()
+        
+
 }
 
 
@@ -106,8 +108,8 @@ function carritoTotal(){
     })
 
     itemCarritoTotal.innerHTML = `Total U$S ${total}`
+    addLocalStorage()
 
-        
 }
 
 function removeItemCarrito(e){
@@ -145,6 +147,21 @@ function sumaCantidad(e){
             carritoTotal()
         }
     })
-    console.log(carrito)
+    
 }
+
+function addLocalStorage(){
+    localStorage.setItem("carrito", JSON.stringify(carrito))
+}
+
+window.onload = function(){
+    const storage = JSON.parse(localStorage.getItem("carrito"));
+    if(storage){
+        carrito = storage;
+        renderCarrito()
+    }
+}
+
+
+
 

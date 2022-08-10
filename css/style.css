@@ -98,7 +98,7 @@ footer {
   justify-content: center;
 }
 
-.galeria-imagenes img {
+.galeria img {
   padding: 20px;
   width: 100%;
   border-radius: 100px;
@@ -212,8 +212,12 @@ footer {
 
 .tour {
   color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
-.tour h1 {
+
+.tour h3 {
   color: rgb(145, 37, 37);
 }
 
@@ -221,31 +225,38 @@ footer {
   color: rgb(145, 37, 37);
 }
 
+.tour-titulo {
+  color: rgb(145, 37, 37);
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
 .header, .nav, .youtube, footer h1, footer h1 p, .social-media {
   display: flex;
   justify-content: center;
 }
 
-.historia {
+.biografia {
   color: grey;
   display: flex;
   flex-direction: column;
 }
 
-.historia h1 {
+.biografia h3 {
   color: #912525;
   display: flex;
   justify-content: center;
 }
 
-.historia p {
+.biografia p {
   display: flex;
   justify-content: center;
   padding: 20px;
   text-align: center;
 }
 
-.historia span {
+.biografia span {
   color: rgb(145, 37, 37);
 }
 

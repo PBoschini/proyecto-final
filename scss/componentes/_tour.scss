@@ -2,14 +2,24 @@
 
 .tour {
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
 
-    h1 {
-        color: $color-titulos;
-
-    }
+.tour h3 {
+    color: $color-titulos ;
 }
 
 .pos-tickets {
     color: $color-titulos ;
+}
+
+.tour-titulo {
+    color: $color-titulos ;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 

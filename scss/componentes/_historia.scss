@@ -1,23 +1,23 @@
 @import '../base/variables';
 
-.historia {
+.biografia {
     color: grey;
     display: flex;
     flex-direction: column;
   }
-  .historia h1 {
+  .biografia h3 {
     color: #912525;
     display: flex;
     justify-content: center;
   }
   
-  .historia p {
+  .biografia p {
     display: flex;
     justify-content: center;  
     padding: 20px;
     text-align: center;
   }
   
-  .historia span {
+  .biografia span {
     color: rgb(145, 37, 37);
   }

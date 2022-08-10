@@ -1,0 +1,14 @@
+
+[
+    { "id": 1, "fecha": "18/5", "lugar": "Buenos Aires, Argentina - Estadio Monumental" , "tickets": "https://www.eminem.com/tour" },
+    { "id": 2, "fecha": "19/5", "lugar": "Buenos Aires, Argentina - Estadio Monumental" , "tickets": "https://www.eminem.com/tour" },
+    { "id": 3, "fecha": "20/5", "lugar": "Buenos Aires, Argentina - Estadio Monumental" , "tickets": "https://www.eminem.com/tour" },   
+    { "id": 4, "fecha": "21/5", "lugar": "Buenos Aires, Argentina - Estadio Monumental" , "tickets": "https://www.eminem.com/tour" },
+    { "id": 5, "fecha": "22/5", "lugar": "Buenos Aires, Argentina - Estadio Monumental" , "tickets": "https://www.eminem.com/tour" },
+    { "id": 6, "fecha": "10/6", "lugar": "Rio de Janeiro, Brasil - Estadio Maracana" , "tickets": "https://www.eminem.com/tour" },    
+    { "id": 7, "fecha": "11/6", "lugar": "Rio de Janeiro, Brasil - Estadio Maracana" , "tickets": "https://www.eminem.com/tour" },
+    { "id": 8, "fecha": "12/6", "lugar": "Rio de Janeiro, Brasil - Estadio Maracana" , "tickets": "https://www.eminem.com/tour" },
+    { "id": 9, "fecha": "10/7", "lugar": "Santiago, Chile - Estadio Monumental David Arellano" , "tickets": "https://www.eminem.com/tour"},
+    { "id": 10, "fecha": "11/7", "lugar": "Santiago, Chile - Estadio Monumental David Arellano" , "tickets": "https://www.eminem.com/tour"},
+    { "id": 11, "fecha": "12/7", "lugar": "Santiago, Chile - Estadio Monumental David Arellano" , "tickets": "https://www.eminem.com/tour"}
+]
